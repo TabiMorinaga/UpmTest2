@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/goma-recorder/UpmTest2/compare/v1.1.1...v1.1.2) (2020-11-28)
+
+
+### Performance Improvements
+
+* remove graphiteWidth option ([65c4c9d](https://github.com/goma-recorder/UpmTest2/commit/65c4c9d057f49825e5faf8a2e015e4b29e8a7277))
+
 ## [1.1.1](https://github.com/goma-recorder/UpmTest2/compare/v1.1.0...v1.1.1) (2020-11-27)
 
 
