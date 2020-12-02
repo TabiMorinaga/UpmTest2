@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/goma-recorder/UpmTest2/compare/v1.1.16...v1.1.17) (2020-12-02)
+
+
+### Performance Improvements
+
+* update ([117d1d4](https://github.com/goma-recorder/UpmTest2/commit/117d1d4136cc3cd5ae1323c989c74c6daf7784ba))
+
 ## [1.1.16](https://github.com/goma-recorder/UpmTest2/compare/v1.1.15...v1.1.16) (2020-12-02)
 
 
