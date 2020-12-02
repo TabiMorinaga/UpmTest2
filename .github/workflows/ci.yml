@@ -47,3 +47,4 @@ jobs:
         git push origin --tags
       env:
         TAG: upm/v${{ steps.semantic.outputs.new_release_version }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
