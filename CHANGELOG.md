@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/goma-recorder/UpmTest2/compare/v1.1.12...v1.1.13) (2020-12-02)
+
+
+### Bug Fixes
+
+* name ([1929c32](https://github.com/goma-recorder/UpmTest2/commit/1929c329a175233b1f8d575fd25d6cbf4d2da0f7))
+
 ## [1.1.12](https://github.com/goma-recorder/UpmTest2/compare/v1.1.11...v1.1.12) (2020-12-02)
 
 
