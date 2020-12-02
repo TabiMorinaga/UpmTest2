@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/goma-recorder/UpmTest2/compare/v1.1.14...v1.1.15) (2020-12-02)
+
+
+### Bug Fixes
+
+* npm publish ([c52229b](https://github.com/goma-recorder/UpmTest2/commit/c52229bff719b9bc5d69f7653cd40e7e7b76f874))
+
 ## [1.1.14](https://github.com/goma-recorder/UpmTest2/compare/v1.1.13...v1.1.14) (2020-12-02)
 
 
