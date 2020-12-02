@@ -1,3 +1,11 @@
+## [1.1.9](https://github.com/goma-recorder/UpmTest2/compare/v1.1.8...v1.1.9) (2020-12-02)
+
+
+### Bug Fixes
+
+* update token ([66fac76](https://github.com/goma-recorder/UpmTest2/commit/66fac7682340317a2ae2c2ecce6526d2d6439bac))
+* upmCi ([79c2967](https://github.com/goma-recorder/UpmTest2/commit/79c2967a4fe46b18f2101dc46d1c17a835045723))
+
 ## [1.1.8](https://github.com/goma-recorder/UpmTest2/compare/v1.1.7...v1.1.8) (2020-12-02)
 
 
