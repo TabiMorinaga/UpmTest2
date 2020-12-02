@@ -15,13 +15,6 @@
             }
         ],
         [
-            "@semantic-release/npm",
-            {
-                "npmPublish": true,
-                "pkgRoot": "Packages/jp.goma_recorder.umptest"
-            }
-        ],
-        [
             "@semantic-release/git",
             {
                 "assets": [
