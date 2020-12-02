@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/goma-recorder/UpmTest2/compare/v1.1.15...v1.1.16) (2020-12-02)
+
+
+### Bug Fixes
+
+* meta file ([a33ccac](https://github.com/goma-recorder/UpmTest2/commit/a33ccacd564b5e64afe7b9192a49af1cc6606b7f))
+
 ## [1.1.15](https://github.com/goma-recorder/UpmTest2/compare/v1.1.14...v1.1.15) (2020-12-02)
 
 
