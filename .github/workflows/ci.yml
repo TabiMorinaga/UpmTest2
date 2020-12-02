@@ -20,6 +20,7 @@ jobs:
           @semantic-release/git
         branch: master
       env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Create upm branch
       run: |
@@ -47,4 +48,3 @@ jobs:
         git push origin --tags
       env:
         TAG: upm/v${{ steps.semantic.outputs.new_release_version }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
