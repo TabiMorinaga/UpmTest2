@@ -1,7 +1,7 @@
 {
-    "name": "@TabiMorinaga/upmtest",
+    "name": "@goma-recorder/upmtest",
     "displayName": "UpmTest",
-    "author": "Tabi Morinaga",
+    "author": "goma-recorder",
     "version": "1.1.13",
     "unity": "2020.1",
     "description": "This is Upm test package",
