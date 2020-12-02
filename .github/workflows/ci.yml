@@ -25,6 +25,7 @@ jobs:
       run: |
         git branch -d upm &> /dev/null || echo upm branch not found
         cp README.md Packages/jp.goma_recorder.umptest/README.md || echo README.md not found
+        git add Packages/jp.goma_recorder.umptest/README.md
         git subtree split -P "$PKG_ROOT" -b upm
         git checkout upm
         if [[ -d "Samples" ]]; then
