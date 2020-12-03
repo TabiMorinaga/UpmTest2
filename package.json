@@ -1,5 +1,5 @@
 {
-    "name": "jp.goma_recorder.upmtest",
+    "name": "@goma_recorder/upmtest",
     "displayName": "UpmTest",
     "author": "Tabi Morinaga",
     "version": "1.1.17",
@@ -15,12 +15,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/TabiMorinaga/UpmTest2.git"
+        "url": "https://github.com/goma-recorder/UpmTest2.git"
     },
     "bugs": {
-        "url": "https://github.com/TabiMorinaga/UpmTest2/issues"
+        "url": "https://github.com/goma-recorder/UpmTest2/issues"
     },
-    "homepage": "https://github.com/TabiMorinaga/UpmTest2#readme",
+    "homepage": "https://github.com/goma-recorder/UpmTest2#readme",
     "samples": [
         {
             "displayName": "Demo 1",
