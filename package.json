@@ -2,7 +2,7 @@
     "name": "jp.goma_recorder.upmtest",
     "displayName": "UpmTest",
     "author": "Tabi Morinaga",
-    "version": "1.1.18",
+    "version": "1.1.19",
     "unity": "2020.1",
     "description": "This is Upm test package",
     "dependencies": {},
@@ -18,7 +18,7 @@
         "url": "https://github.com/goma-recorder/UpmTest2.git"
     },
     "publishConfig": {
-        "registry":"https://npm.pkg.github.com/@goma-recorder"
+        "registry": "https://npm.pkg.github.com/@goma-recorder"
     },
     "bugs": {
         "url": "https://github.com/goma-recorder/UpmTest2/issues"
