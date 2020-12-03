@@ -17,9 +17,6 @@
         "type": "git",
         "url": "https://github.com/goma-recorder/UpmTest2.git"
     },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/@goma-recorder"
-    },
     "bugs": {
         "url": "https://github.com/goma-recorder/UpmTest2/issues"
     },
