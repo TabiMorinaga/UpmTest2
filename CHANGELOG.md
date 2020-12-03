@@ -1,3 +1,10 @@
+## [1.1.20](https://github.com/goma-recorder/UpmTest2/compare/v1.1.19...v1.1.20) (2020-12-03)
+
+
+### Bug Fixes
+
+* npm ([c461cb9](https://github.com/goma-recorder/UpmTest2/commit/c461cb9987fec96adf05985f58997bdc68ff8471))
+
 ## [1.1.19](https://github.com/goma-recorder/UpmTest2/compare/v1.1.18...v1.1.19) (2020-12-03)
 
 
