@@ -1,5 +1,5 @@
 {
-    "name": "@goma-recorder/upmtest",
+    "name": "jp.goma_recorder/upmtest",
     "displayName": "UpmTest",
     "author": "Tabi Morinaga",
     "version": "1.1.18",
@@ -16,6 +16,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/goma-recorder/UpmTest2.git"
+    },
+    "publishConfig": {
+        "registry":"https://npm.pkg.github.com/@goma-recorder"
     },
     "bugs": {
         "url": "https://github.com/goma-recorder/UpmTest2/issues"
