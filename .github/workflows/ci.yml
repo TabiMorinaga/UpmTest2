@@ -27,11 +27,10 @@ jobs:
         git subtree split -P "$PKG_ROOT" -b upm
         git checkout upm
         git checkout master README.md
-        git mv README.md Documentation~/jp.goma_recorder.umptest.md
-        git checkout master README.md
+        mv README.md Documentation~/jp.goma_recorder.umptest.md
         git checkout master CHANGELOG.md
         git checkout master LICENSE
-        git mv LICENSE LICENSE.md
+        mv LICENSE LICENSE.md
         if [[ -d "Samples" ]]; then
           git mv Samples Samples~
           rm -f Samples.meta
