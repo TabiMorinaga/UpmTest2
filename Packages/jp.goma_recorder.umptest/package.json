@@ -2,7 +2,7 @@
     "name": "jp.goma_recorder.upmtest",
     "displayName": "UpmTest",
     "author": "Tabi Morinaga",
-    "version": "1.1.22",
+    "version": "1.1.23",
     "unity": "2020.1",
     "description": "This is Upm test package",
     "dependencies": {},
