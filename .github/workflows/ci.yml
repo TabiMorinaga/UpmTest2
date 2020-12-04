@@ -27,9 +27,11 @@ jobs:
         git subtree split -P "$PKG_ROOT" -b upm
         git checkout upm
         git checkout master README.md
+        git mv README.md Documentation~/${{ PKG_NAME }}.md
+        git checkout master README.md
         git checkout master CHANGELOG.md
         git checkout master LICENSE
-        git checkout master a || echo no a file
+        git mv LICENSE LICENSE.md
         if [[ -d "Samples" ]]; then
           git mv Samples Samples~
           rm -f Samples.meta
@@ -39,6 +41,7 @@ jobs:
         fi
         git push -f -u origin upm
       env:
+        PKG_NAME: jp.goma_recorder.umptest
         PKG_ROOT: Packages/jp.goma_recorder.umptest
     - name: Create upm git tag
       if: steps.semantic.outputs.new_release_published == 'true'
