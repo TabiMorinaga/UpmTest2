@@ -1,3 +1,10 @@
+## [1.1.26](https://github.com/goma-recorder/UpmTest2/compare/v1.1.25...v1.1.26) (2020-12-04)
+
+
+### Bug Fixes
+
+* ci5 ([f489093](https://github.com/goma-recorder/UpmTest2/commit/f4890934699c50f280e57b1a95a8afe3f244ef95))
+
 ## [1.1.25](https://github.com/goma-recorder/UpmTest2/compare/v1.1.24...v1.1.25) (2020-12-04)
 
 
