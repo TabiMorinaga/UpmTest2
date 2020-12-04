@@ -32,7 +32,7 @@ jobs:
         git checkout master README.md || echo README.md not found
         git checkout master CHANGELOG.md || echo CHANGELOG.md not found
         git checkout master LICENSE || echo LICENSE not found
-        git mv LICENSE LICENSE.md
+        git mv LICENSE LICENSE.md || echo Can not rename
         if [[ -d "Samples" ]]; then
           git mv Samples Samples~
           rm -f Samples.meta
