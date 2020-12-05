@@ -1,4 +1,5 @@
-name: CI
+name: Release
+
 on:
   push:
     branches:
@@ -21,6 +22,7 @@ jobs:
         branch: master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Create upm branch
       run: |
         git branch -d upm &> /dev/null || echo upm branch not found
@@ -43,6 +45,7 @@ jobs:
         git push -f -u origin upm
       env:
         PKG_ROOT: Packages/jp.goma_recorder.umptest
+
     - name: Create upm git tag
       if: steps.semantic.outputs.new_release_published == 'true'
       run: |
@@ -50,11 +53,15 @@ jobs:
         git push origin --tags
       env:
         TAG: upm/v${{ steps.semantic.outputs.new_release_version }}   
+
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
-    - run: npm install
-    - run: npm publish
+
+    - name: Publish on npm
+      run: |
+           npm install
+           npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
