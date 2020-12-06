@@ -12,6 +12,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
+
     - name: Semantic release
       id: semantic
       uses: cycjimmy/semantic-release-action@v2
@@ -30,11 +31,11 @@ jobs:
         git checkout upm
         git checkout master README.md || echo README.md not found
         mkdir Documentation~
-        git mv README.md Documentation~/jp.goma_recorder.umptest.md
+        git mv README.md Documentation~/jp.goma_recorder.upmtest.md
         git checkout master README.md || echo README.md not found
         git checkout master CHANGELOG.md || echo CHANGELOG.md not found
         git checkout master LICENSE || echo LICENSE not found
-        mv -f LICENSE LICENSE.md || echo Can not rename
+        mv -f LICENSE LICENSE.md || echo Can not rename LICENSE
         if [[ -d "Samples" ]]; then
           git mv Samples Samples~
           rm -f Samples.meta
@@ -44,7 +45,7 @@ jobs:
         fi
         git push -f -u origin upm
       env:
-        PKG_ROOT: Packages/jp.goma_recorder.umptest
+        PKG_ROOT: Packages/jp.goma_recorder.upmtest
 
     - name: Create upm git tag
       if: steps.semantic.outputs.new_release_published == 'true'
@@ -52,16 +53,19 @@ jobs:
         git tag $TAG upm
         git push origin --tags
       env:
-        TAG: upm/v${{ steps.semantic.outputs.new_release_version }}   
+        TAG: upm/v${{ steps.semantic.outputs.new_release_version }}
 
-    - uses: actions/setup-node@v1
+    - name: Setup Node.js
+      if: steps.semantic.outputs.new_release_published == 'true'
+      uses: actions/setup-node@v1
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
 
-    - name: Publish on npm
+    - name: Publish on npmjs
+      if: steps.semantic.outputs.new_release_published == 'true'
       run: |
-           npm install
-           npm publish
+        npm install
+        npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
