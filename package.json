@@ -1,0 +1,31 @@
+{
+    "name": "jp.goma_recorder.upmtest",
+    "displayName": "UpmTest",
+    "author": "Tabi Morinaga",
+    "version": "1.1.32",
+    "unity": "2020.1",
+    "description": "This is Upm test package",
+    "dependencies": {},
+    "keywords": [
+        "unity",
+        "midi",
+        "timeline",
+        "playable"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/goma-recorder/UpmTest2.git"
+    },
+    "bugs": {
+        "url": "https://github.com/goma-recorder/UpmTest2/issues"
+    },
+    "homepage": "https://github.com/goma-recorder/UpmTest2#readme",
+    "samples": [
+        {
+            "displayName": "Demo 1",
+            "description": "Description for demo 1",
+            "path": "Samples~/Sample1"
+        }
+    ]
+}
