@@ -18,14 +18,14 @@
             "@semantic-release/npm",
             {
                 "npmPublish": false,
-                "pkgRoot": "Packages/jp.goma_recorder.umptest"
+                "pkgRoot": "Packages/jp.goma_recorder.upmtest"
             }
         ],
         [
             "@semantic-release/git",
             {
                 "assets": [
-                    "Packages/jp.goma_recorder.umptest/package.json",
+                    "Packages/jp.goma_recorder.upmtest/package.json",
                     "CHANGELOG.md"
                 ],
                 "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
