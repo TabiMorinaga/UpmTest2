@@ -37,7 +37,7 @@
       }
     },
     "jp.goma_recorder.upmtest": {
-      "version": "file:jp.goma_recorder.umptest",
+      "version": "file:jp.goma_recorder.upmtest",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
