@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/goma-recorder/UpmTest2/compare/v1.1.35...v2.0.0) (2021-01-02)
+
+
+### chore
+
+* require Node.js >=10.18  ([2f5059f](https://github.com/goma-recorder/UpmTest2/commit/2f5059f92d2947d6a0dfc59923e1b45daefa79dd))
+
+
+### BREAKING CHANGES
+
+* Require Node.js >= 10.18
+
 ## [1.1.35](https://github.com/goma-recorder/UpmTest2/compare/v1.1.34...v1.1.35) (2020-12-10)
 
 
