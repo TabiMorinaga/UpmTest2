@@ -3,17 +3,18 @@ name: Manual Trigger
 on:
   workflow_dispatch:
     inputs:
-      logLevel:
+      Y_NAME:
         required: true
         description: ログレベル
         default: warning
       tags:
 
 jobs:
-  printInputs:
+  build:
+    name: Hello world action
     runs-on: ubuntu-latest
-
     steps:
-    - run: |
-        echo "Log level: ${{ github.event.inputs.logLevel }}"
-        echo "Tags: ${{ github.event.inputs.tags }}" 
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MY_NAME: ${{Y_NAME}}
