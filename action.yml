@@ -10,5 +10,5 @@ jobs:
        fetch-depth: 0
        
     - name: print
-      run echo Hello World
+      run: echo Hello World
     
