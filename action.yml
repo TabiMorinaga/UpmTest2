@@ -1,17 +1,14 @@
 name: "Hello Actions"
-description: "Greet someone"
-author: "octocat@github.com"
 
-inputs:
-  MY_NAME:
-    description: "Who to greet"
-    required: true
-    default: "World"
-
-runs:
-  using: "docker"
-  image: "Dockerfile"
-
-branding:
-  icon: "mic"
-  color: "purple"
+jobs:
+  act:
+    name: hello wrold
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+       fetch-depth: 0
+       
+    - name: print
+      run echo Hello World
+    
