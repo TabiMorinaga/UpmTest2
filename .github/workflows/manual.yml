@@ -1,20 +1,10 @@
 name: Manual Trigger
 
-on:
-  workflow_dispatch:
-    inputs:
-      Y_NAME:
-        required: true
-        description: ログレベル
-        default: warning
-      tags:
-
+on: workflow_dispatch
 jobs:
   build:
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./action-a
-        with:
-          MY_NAME: "goma"
+      - uses: ./action.yml
