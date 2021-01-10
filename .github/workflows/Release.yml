@@ -15,7 +15,7 @@ jobs:
         
     - name: ejq
       run: |
-        echo '[{"name": "Ann", "age": 20},{"name": "Bob", "age": 50},{"name": "Unknown", "age": 45}]' | jq .
+        echo .releaserc.json | jq .
 
     - name: Semantic release
       id: semantic
