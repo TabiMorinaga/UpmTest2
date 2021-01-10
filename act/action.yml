@@ -1,6 +1,6 @@
 name: "Hello Actions"
 
-jobs:
+runs:
   act:
     name: hello wrold
     runs-on: ubuntu-latest
